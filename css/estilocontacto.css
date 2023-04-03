@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background: #1f242d;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 35px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(0, 153, 255);
+    transition: .4s;
+}
+.lista{
+    padding-right: 100px;
+}
+.Hepea{
+    padding-left: 100px;
+    transition: transform .4s;
+}
+.Hepea:hover{
+    transform: scale(1.2);
+}
+.opcion{
+    transition: transform .4s;
+}
+.opcion:hover{
+    transform: scale(1.3);
+}
+.pie-pag{
+    height: 250px;
+    background-color: #0e131d;
+    display: flex;
+    padding-top: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactos{
+    padding-left: 250px;
+}
+.compartir{
+    padding-right: 250px;
+}
+.contactos .link-cont{
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+}
+.contactos ul li{
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.contactos ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.contactos ul li a:hover{
+    color: aquamarine;
+}
+.compartir .share{
+    color: aliceblue;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.contactos ul li i{
+    color: rgb(197, 196, 196);
+}
+.compartir ul li i{
+    color: white;
+    padding: 5px 7px;
+    background-color: rgb(20, 114, 151);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 7px;
+    transition: transform .4s;
+}
+.compartir ul li i:hover{
+    transform: scale(1.1);
+}
+.compartir ul li{
+    list-style-type: none;
+}
+.compartir ul{
+    display: flex;
+}
+.wsp{
+    right: 40px;
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    bottom: 40px;
+    border-radius: 50%;
+    font-size: 38px;
+    text-align: center;
+    background-color: #4dc247;
+    z-index: 10;
+    transition: transform .4s;
+}
+.wsp:hover{
+    transform: scale(1.3);
+}
+.wsp a i{
+    padding-top: 5px;
+}
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    padding-bottom: 20px;
+}
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(35, 36, 59, 0.2);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #1d2442;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+    color: white;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #0f5288;
+}
+
+.contact-form form button {
+    background: #0b88c2;
+    border-radius: 20px;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    text-align: center;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #074988;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
